@@ -41,7 +41,7 @@ A powerful, feature-rich digital whiteboard application built with React and Typ
 
 | Main Interface | Export Options |
 |:---:|:---:|
-| <img src="Screenshots/Screenshot 2025-10-23 003411.png" alt="Main Interface" width="400"/> | <img src="Screenshots/Screenshot 2025-10-23 003555.png" alt="Drawing Tools" width="400"/> |
+| <img src="Screenshots/Screenshot 2025-10-23 003411.png" alt="Main Interface" width="400"/> | <img src="Screenshots/Screenshot 2025-10-23 004535.png" alt="Drawing Tools" width="400"/> |
 
 | Page Navigation | Drawing Tools and Page color |
 |:---:|:---:|
