@@ -1,2 +1,126 @@
-# Deep-Whiteboard-
-So I was looking for a best notes app for teaching, I did not find so I made it that do all the required oprations.
+
+# Deep White Board
+
+A powerful, feature-rich digital whiteboard application built with React and TypeScript by Deep Rudra. Perfect for teaching, presentations, note-taking, and collaborative drawing sessions.
+
+## 🚀 Features
+
+### Drawing Tools
+- **Pen Tool**: Draw with customizable size and color
+- **Highlighter**: Semi-transparent highlighting with glow effects
+- **Eraser**: Remove strokes with adjustable size
+- **Shapes**: Draw lines, rectangles, circles, triangles, pentagons, and hexagons
+- **Text Tool**: Add text annotations
+- **Lasso Tool**: Select and manipulate existing strokes
+
+### Canvas Management
+- **Multiple Pages**: Create and manage multiple whiteboard pages
+- **Page Navigation**: Easy switching between pages with visual thumbnails
+- **Aspect Ratios**: Support for both 4:3 and 16:9 page formats
+- **Background Colors**: Customizable page backgrounds
+
+### History & Editing
+- **Undo/Redo**: Full history support with keyboard shortcuts (Ctrl+Z/Ctrl+Y)
+- **Stroke Manipulation**: Move, resize, and delete selected strokes
+- **Real-time Editing**: Smooth drawing experience with touch and mouse support
+
+### Export Options
+- **PNG Export**: High-quality image export with or without background
+- **PDF Export**: Multi-page PDF export with proper formatting
+- **High Resolution**: 1920px base resolution for crisp exports
+
+### User Experience
+- **Responsive Design**: Works on desktop, tablet, and mobile devices
+- **Toast Notifications**: User feedback for all actions
+- **Keyboard Shortcuts**: Efficient workflow with hotkeys
+- **Touch Support**: Full touch and stylus support for tablets
+
+## 🛠️ Installation & Setup
+
+### Prerequisites
+- Node.js (version 14 or higher)
+- npm or yarn package manager
+
+### Quick Start (Windows)
+1. **Clone the repository**:
+   ```bash
+   git clone <repository-url>
+   cd gemini-whiteboard
+   ```
+
+2. **Run the application**:
+   - Double-click `run-whiteboard.bat` 
+   - The script will automatically install dependencies and start the server
+   - Your browser will open automatically at `http://localhost:8080`
+
+### Manual Setup
+1. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+2. **Start development server**:
+   ```bash
+   npm run dev
+   ```
+
+3. **Open in browser**:
+   Navigate to `http://localhost:8080`
+
+### Production Build
+```bash
+npm run build
+npm run preview
+```
+
+## 📁 Project Structure
+
+```
+gemini-whiteboard/
+├── components/          # React components
+│   ├── Canvas.tsx      # Main drawing canvas
+│   ├── Toolbar.tsx     # Drawing tools and controls
+│   ├── PageNavigator.tsx # Page management
+│   └── ...
+├── services/           # Core functionality
+│   ├── drawing.ts      # Drawing algorithms
+│   ├── export.ts       # Export functionality
+│   └── geometry.ts     # Geometric calculations
+├── hooks/              # Custom React hooks
+├── types.ts            # TypeScript definitions
+├── constants.ts        # Application constants
+└── run-whiteboard.bat  # Windows startup script
+```
+
+## 🎨 Usage
+
+1. **Start Drawing**: Select a tool from the toolbar and begin drawing
+2. **Add Pages**: Click the "+" button to create new pages
+3. **Navigate**: Use the page navigator at the bottom to switch between pages
+4. **Export**: Use the export buttons to save as PNG or PDF
+5. **Undo/Redo**: Use Ctrl+Z and Ctrl+Y for history navigation
+
+## 🗑️ Files You Can Delete
+
+The following files/folders are **NOT required** for running the application and can be safely deleted:
+
+- `Deep-Whiteboard-/` - This appears to be an old or duplicate folder
+- `Deep-Whiteboard-/README.md` - Duplicate README file
+
+**Note**: Keep all other files as they are essential for the application to function properly.
+
+## 🛠️ Technology Stack
+
+- **Frontend**: React 19, TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS (implied from class usage)
+- **Export**: jsPDF for PDF generation
+- **Canvas**: HTML5 Canvas API
+
+## 📝 License
+
+This project is created by Deep Rudra. All rights reserved.
+
+---
+
+**Keep the terminal/command prompt window open while using the application to maintain the server connection.**

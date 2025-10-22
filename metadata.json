@@ -1,0 +1,5 @@
+{
+  "name": "Deep Whiteboard",
+  "description": "A multi-page, canvas-based whiteboard application with drawing, shapes, text, selection, transform, erasing, zoom, pan, and export functionalities, complete with toasts and keyboard shortcuts for a seamless user experience.",
+  "requestFramePermissions": []
+}
