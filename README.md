@@ -45,7 +45,7 @@ A powerful, feature-rich digital whiteboard application built with React and Typ
 1. **Clone the repository**:
    ```bash
    git clone <repository-url>
-   cd gemini-whiteboard
+   cd Deep-Whiteboard
    ```
 
 2. **Run the application**:
