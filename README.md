@@ -100,15 +100,6 @@ gemini-whiteboard/
 4. **Export**: Use the export buttons to save as PNG or PDF
 5. **Undo/Redo**: Use Ctrl+Z and Ctrl+Y for history navigation
 
-## 🗑️ Files You Can Delete
-
-The following files/folders are **NOT required** for running the application and can be safely deleted:
-
-- `Deep-Whiteboard-/` - This appears to be an old or duplicate folder
-- `Deep-Whiteboard-/README.md` - Duplicate README file
-
-**Note**: Keep all other files as they are essential for the application to function properly.
-
 ## 🛠️ Technology Stack
 
 - **Frontend**: React 19, TypeScript
