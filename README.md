@@ -35,6 +35,20 @@ A powerful, feature-rich digital whiteboard application built with React and Typ
 - **Keyboard Shortcuts**: Efficient workflow with hotkeys
 - **Touch Support**: Full touch and stylus support for tablets
 
+## 📸 Screenshots
+
+<div align="center">
+
+| Main Interface | Drawing Tools |
+|:---:|:---:|
+| <img src="Screenshots/Screenshot 2025-10-23 003411.png" alt="Main Interface" width="400"/> | <img src="Screenshots/Screenshot 2025-10-23 003555.png" alt="Drawing Tools" width="400"/> |
+
+| Page Navigation | Export Options |
+|:---:|:---:|
+| <img src="Screenshots/Screenshot 2025-10-23 003606.png" alt="Page Navigation" width="400"/> | <img src="Screenshots/Screenshot 2025-10-23 003624.png" alt="Export Options" width="400"/> |
+
+</div>
+
 ## 🛠️ Installation & Setup
 
 ### Prerequisites
@@ -107,11 +121,6 @@ gemini-whiteboard/
 - **Styling**: Tailwind CSS (implied from class usage)
 - **Export**: jsPDF for PDF generation
 - **Canvas**: HTML5 Canvas API
-
-## 📝 License
-
-This project is created by Deep Rudra. All rights reserved.
-
 ---
 
 **Keep the terminal/command prompt window open while using the application to maintain the server connection.**
